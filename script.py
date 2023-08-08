@@ -2,8 +2,8 @@ from pymongo import MongoClient
 import requests
 
 MONGOURL = ""
-DATABASE = ""
-COLLECTION = ""
+DATABASE = "spotsaasdb"
+COLLECTION = "products"
 
 client = MongoClient(MONGOURL)
 db = client[DATABASE]
