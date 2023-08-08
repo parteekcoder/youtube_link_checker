@@ -2,10 +2,18 @@
 
 ## Setup
 
-- Clone the repo
+- Clone the project
 
-- place your json data file with name `data.json` at the same place where you cloned the project
+- Install the dependencies
 
-- run the script.ipynb
+```
+pip install -r requirements.txt
+```
 
-- It will generate the `output_data.json` 
+- Modify the DB_URL
+
+- Run the script
+
+```
+python3 script.py
+```
